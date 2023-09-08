@@ -46,7 +46,19 @@ const Nav = () => {
         return <Link href={link.path} key={index} 
                 className={`${link.path === pathname && 'text-red-700'} relative flex 
                 items-center group hover:text-red-700 transition-all duration-500`}>
-          {link.icon}
+                 <div className=' absolute pr-14 hidden right-0 xl:group-hover:flex'>
+                    <div className='bg-white/20 relative flex text-primary items-center p-[6px] rounded-sm'>
+                      <div className='font-semibold rounded-sm'>{link.name}</div>
+                      <div 
+                        className=' border-solid border-l-white/20 
+                        border-l-8 border-y-transparent border-y-[6px] 
+                        border-r-0 absolute -right-2'></div>
+                
+                    </div>
+                  </div>
+                <div className=''>
+                  {link.icon}
+                </div>
           </Link>
       })
     }
