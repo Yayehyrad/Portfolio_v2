@@ -43,7 +43,9 @@ const Nav = () => {
     text-3xl backdrop-blur-md xl:rounded-full xl:text-xl'>
     {
       navData.map((link , index)=>{
-        return <Link href={link.path} key={index} className={`${link.path === pathname && 'text-red-700'}`}>
+        return <Link href={link.path} key={index} 
+                className={`${link.path === pathname && 'text-red-700'} relative flex 
+                items-center group hover:text-red-700 transition-all duration-500`}>
           {link.icon}
           </Link>
       })
