@@ -1,3 +1,4 @@
+"use client"
 import Image from 'next/image'
 import ParticlesContainer from "@/components/ParticlesContainer"
 import ProjectsBtn from "@/components/ProjectsBtn"
@@ -37,23 +38,25 @@ export default function Home() {
       <div className=' h-screen bg-primary/60'>
         <div className=' w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10'>
           <div className=' text-center flex  flex-col justify-center xl:text-left xl:p-40  h-full container mx-auto'>
-            <h1 className='h1'>
+            <motion.h1 variants={fadeIn("down" ,0.2)} initial="hidden" animate="show" exit={"hidden"} className='h1'>
               Transforming Ideas 
               <br /> 
               In To 
               <span className=' text-red-800 animate-pulse ml-2'>Digital reality</span>
-            </h1>
-            <p className=' max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'>
+            </motion.h1>
+            <motion.p variants={fadeIn("down" ,0.2)} initial="hidden" animate="show" exit={"hidden"} className=' max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Obcaecati iste repellat assumenda eius molestiae autem omnis 
               fugit pariatur voluptate velit?
-            </p>
-            <div className='flex justify-center xl:hidden relative'>
+            </motion.p>
+            <motion.div variants={fadeIn("down" ,0.6)} initial="hidden" animate="show" exit={"hidden"}
+              className='flex justify-center xl:hidden relative'>
               <ProjectsBtn /> 
-            </div>
-            <div className='hidden xl:felx'>
+            </motion.div>
+            <motion.div variants={fadeIn("down" ,0.6)} initial="hidden" animate="show" exit={"hidden"} 
+              className='hidden xl:block'>
               <ProjectsBtn /> 
-            </div>
+            </motion.div>
           </div>
         </div>
 
