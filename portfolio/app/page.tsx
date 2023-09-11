@@ -59,9 +59,17 @@ export default function Home() {
             </motion.div>
           </div>
         </div>
+        <div className=' w-[1200px] h-full absolute right-0 bottom-0'>
+          <div 
+          className=' bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full mix-blend-color-dodge translate-x-10'>
 
+          </div>
+          <ParticlesContainer />
+          <motion.div variants={fadeIn("up" ,0.2)} initial="hidden" animate="show" exit={"hidden"} className=''>
+            <Avatar />
+          </motion.div>
+        </div>
       </div>
-       <h1 className=' text-red-700'>Portfolio</h1>  
     </main>
   )
 }
