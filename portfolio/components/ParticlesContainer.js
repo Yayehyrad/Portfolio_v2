@@ -66,7 +66,24 @@ const ParticlesContainer = () => {
         enable : true,
         outModes : {
           default : "bounce"
-        }
+        },
+        random : false ,
+        speed:1,
+        straight : false
+      },
+      number : {
+        density:{
+          enable:true,
+          area : 800
+        },
+        value : 80
+
+      },
+      opacity : {
+        value : 0.5
+      },
+      shape :{
+        type : "circle"
       }
     }
     
