@@ -1,5 +1,8 @@
+"use client"
+import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
+
 
 const ParticlesContainer = () => {
   const particlsInit = useCallback(
@@ -16,7 +19,7 @@ const ParticlesContainer = () => {
   )
 
   
-  return  <Particles className="w-full" id="tsparticles" init={particlsInit} loaded={particlesloded} 
+  return  <Particles className="w-full h-full z-1000" id="tsparticles" init={particlsInit} loaded={particlesloded} 
   options={{
     fullScreen:{enable : false},
     background: {
@@ -84,10 +87,15 @@ const ParticlesContainer = () => {
       },
       shape :{
         type : "circle"
+      },
+      size :{
+        value :{
+          min : 1,
+          max :5
+        }
       }
-    }
-    
-    
+    },
+    detectRetina : true
   }}/>
 };
 
