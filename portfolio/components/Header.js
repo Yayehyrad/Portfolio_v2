@@ -4,7 +4,7 @@ import Socials from "@/components/Socials"
 const Header = () => {
   return <header className="z-30  w-full absolute flex items-center px-16 xl:px-0 xl:h-[90px]">
     <div className="container mx-auto "> 
-      <div className="flex">
+      <div className="flex flex-col lg:flex-row justify-between items-center py-8 gap-y-6">
         <Link href={"/"}>
           <Image src={"/logo.svg"} width={220} height={48} alt="" priority={true}/>
         </Link>
