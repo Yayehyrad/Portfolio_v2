@@ -85,10 +85,10 @@ const Resume = () => {
           </li> */}
         </ul>
       </div>
-      {educationData && <Experience experienceData={experienceData} />}
+      {educationData && <Experience experienceData={true} />}
       {skillData && <Skills />}
       {/* {achievementData && <Achievement />} */}
-      {experienceData && <Experience experienceData={experienceData} />}
+      {experienceData && <Experience experienceData={false} />}
     </section>
   );
 };

@@ -8,7 +8,7 @@ const Abouts: React.FC = () => {
   const { ref } = useSectionInView("About", 0.5);
 
   return (
-    <section id="about" ref={ref}>
+    <section id="about" ref={ref} className="mb-2">
       <div className="flex h-[100vh] mt-10 items-center">
         <div className="w-1/2 hidden md:block">
           <Image src={logo} alt="About Me" width={500} height={500} />

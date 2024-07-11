@@ -32,26 +32,52 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Food Ordering and Delivery Website",
+    location: "AASTU",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "As part of my software engineering coursework at AASTU, I led a team to develop a comprehensive food ordering and delivery website. The project involved designing and implementing a user-friendly interface for customers to browse menus, place orders, and track deliveries. On the backend, we built a robust system to manage restaurant information, inventory, and order fulfillment. Key features included a mobile-responsive design, delivery system , and order tracking.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2022",
+  },
+  {
+    title: "Job Portal",
+    location: "DAN Energie",
+    description:
+      "At DAN Energie, I'm part of a team responsible for developing a comprehensive job portal website. As a full-stack developer, my primary responsibilities include designing and implementing the user-facing web application using the MERN (MongoDB, Express.js, React.js, Node.js) stack, where I developed responsive and accessible user interfaces with React.js, built robust backend APIs using Express.js to handle user authentication, job postings, applications, and other core functionalities, and integrated the frontend and backend components to ensure seamless data flow and functionality. I also wrote Python scripts to scrape job postings from various online sources, utilizing web scraping libraries like BeautifulSoup and Scrapy to extract relevant job data, clean and normalize the information, and integrate the web scraping pipelines with the job portal's backend to continuously update the database with the latest job opportunities. Throughout this role, I've collaborated closely with cross-functional teams, participated in sprint planning, code reviews, and daily standups to ensure effective project management and delivery.",
+    icon: React.createElement(FaReact),
+    date: "2023",
+  },
+  {
+    title: "Projects at AASTU",
+    location: "AASTU",
+    description:
+      "For my senior project at AASTU, I worked as a backend developer on a synchronous microservices-based student information management system (SIMS). The goal was to create a modular and scalable platform to handle various administrative tasks related to student records, such as enrollment, attendance, grading, and transcript management. In this role, I was responsible for designing and implementing the core microservices that formed the backbone of the SIMS architecture using Node.js. This involved developing efficient data storage and retrieval mechanisms, implementing secure communication protocols between the microservices, and ensuring seamless integration with the system's front-end components. The use of Node.js allowed me to leverage its event-driven, non-blocking I/O model to build a highly responsive and scalable backend infrastructure. The end result was a highly flexible and resilient SIMS that could easily adapt to changing requirements and scale to accommodate growing user demands.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024",
+  },
+] as const;
+export const educationsData = [
+  {
+    title: "BSc in Software Engineering",
+    location: "AASTU",
+    description:
+      "Graduated in 2024 after 5 years of comprehensive studies in software engineering. AASTU is a leading public research university in Ethiopia, known for its strong programs in engineering, technology, and the sciences. The software engineering curriculum covered a wide range of topics including computer programming, algorithms, database systems, software design and architecture, operating systems, and project management.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2024",
   },
   {
     title: "Front-End Developer",
-    location: "Orlando, FL",
+    location: "coursera",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Completed specialized online courses in data science, back-end development, and front-end development through Coursera",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2023 - 2024",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Technical Skills",
+    location: "Online",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Self-taught and continuously learning new technologies from different sites like youtube , including:React, Next.js, TypeScript, Tailwind, Prisma  and MongoDB.",
     icon: React.createElement(FaReact),
     date: "2021 - present",
   },

@@ -13,19 +13,21 @@ const ContactLeft = () => {
         alt="contactImg"
       />
       <div className="flex flex-col gap-4">
-        <h3 className="text-3xl font-bold text-white">John Doe</h3>
+        <h3 className="text-3xl font-bold text-white">Yayehyrad Sisay</h3>
         <p className="text-lg font-normal text-gray-400">
           MERN Stack Developer
         </p>
         <p className="text-base text-gray-400 tracking-wide">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
-          ipsam autem cumque, accusantium dicta odio.
+          I&apos;m always excited to connect with new people and explore
+          potential opportunities. Feel free to reach out to me through any of
+          the following channels:
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Phone: <span className="text-lightText">+968 97859628</span>
+          Phone: <span className="text-lightText">+251 713340390</span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Email: <span className="text-lightText">noor.jsdivs@gmail.com</span>
+          Email:{" "}
+          <span className="text-lightText">yayehyrad.sisay@gmail.com</span>
         </p>
       </div>
       <div className="flex flex-col gap-4">
