@@ -73,9 +73,9 @@ const Navbar = () => {
       >
         <FiMenu />
       </span>
-      {true && (
+      {showMenu && (
         <motion.div
-          initial={showMenu ? { x: -100, opacity: 0 } : { x: 0, opacity: 1 }}
+          initial={{ x: -100, opacity: 0 }}
           animate={showMenu ? { x: 0, opacity: 1 } : { x: -100, opacity: 0 }}
           transition={{
             duration: 0.5,
