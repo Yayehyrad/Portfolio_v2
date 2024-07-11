@@ -1,6 +1,5 @@
 "use client";
 import Title from "../layouts/Title";
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 import React from "react";
 // import SectionHeading from "./section-heading";
