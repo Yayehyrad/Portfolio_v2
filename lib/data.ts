@@ -88,6 +88,7 @@ export const projectsData = [
     description: "I created this landing page for an interior design company.",
     tags: ["React", "Tailwind", "Type Script"],
     imageUrl: blue,
+    link: "https://hotel-booking-35dy.onrender.com",
   },
   {
     title: "Euphoria Hotel Management",
@@ -95,6 +96,7 @@ export const projectsData = [
       "website for a hotel mangement purpose.It has features like filtering, sorting and pagination.",
     tags: ["React", "TypeScript", "Node js", "Tailwind"],
     imageUrl: euphoria,
+    link: "https://interior-design-ijjn.onrender.com",
   },
   // {
   //   title: "Word Analytics",

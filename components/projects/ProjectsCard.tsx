@@ -12,6 +12,7 @@ export default function ProjectsCard({
   description,
   tags,
   imageUrl,
+  link,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -46,6 +47,9 @@ export default function ProjectsCard({
               </li>
             ))}
           </ul>
+          <a href={link} className=" text-blue-700">
+            live
+          </a>
         </div>
 
         <Image
