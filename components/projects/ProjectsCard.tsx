@@ -47,7 +47,11 @@ export default function ProjectsCard({
               </li>
             ))}
           </ul>
-          <a href={link} className=" text-blue-700">
+          <a
+            href={link}
+            target="_blank"
+            className=" bg-blue-800/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70"
+          >
             live
           </a>
         </div>
