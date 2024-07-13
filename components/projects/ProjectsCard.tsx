@@ -50,7 +50,7 @@ export default function ProjectsCard({
           <a
             href={link}
             target="_blank"
-            className=" bg-blue-800/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70"
+            className=" bg-blue-800/[0.7] mt-2 px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70 text-center"
           >
             live
           </a>
